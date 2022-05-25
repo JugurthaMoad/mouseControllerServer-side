@@ -31,6 +31,7 @@ const hundleSpeed = (s) => {
 app.use(cors());
 
 // to establish connection with the client
+// change origin with your local @
 const io = new Server(server, {
   cors: {
     origin: "http://192.168.1.35:3000",
